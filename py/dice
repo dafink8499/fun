@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+from random import randrange
+import skilstak.colors as c
+print(c.clear)
+total = 0
+for n in range(5):
+    rand_int = randrange(1,6)
+    print("you rolled a " + str(rand_int))
+    total += rand_int
+print("total = " + str(total))

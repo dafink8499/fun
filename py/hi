@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+import skilstak.colors as c
+print(c.clear + c.random_color() + "Hi, what's your name?")
+name = input(c.blue + '')
+print(c.random_color() + "Nice to meet you " + name)
